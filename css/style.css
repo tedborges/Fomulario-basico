@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.center {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    height: 60px;
+    background-color: #212343;
+}
+
+.header img {
+    margin: 19px;
+}
+
+.container-banner {
+    width: 100%;
+    height: 557px;
+    background-image:url('../img/header_bg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.container-banner > .center {
+    height: 100%;
+}
+
+.form {
+    width: 400px;
+    height: 100%;
+    float: right;
+    background-color: white;
+}
