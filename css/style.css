@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 html, body {
@@ -36,8 +37,62 @@ html, body {
 }
 
 .form {
+    padding: 10px;
     width: 400px;
-    height: 100%;
+    height: calc(100% + 30px);
     float: right;
+    position: relative;
+    top: -15px;
+    border: 8px solid #cccccc;
     background-color: white;
+}
+
+.form h2 {
+    font-weight: normal;
+    color: #999999;
+    font-size: 21px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+.input-container span, .form p {
+    display: inline-block;
+    width: 100%;
+    color: #bbbbbb;
+    font-size: 17px;
+}
+
+.form p {
+    margin: 20px 0;
+}
+
+.input-container input[type=text] {
+    margin-top: 8px;
+    width: 344px;
+    height: 55px;
+    border: 1px solid #cccccc;
+}
+
+.form .input-submit-container {
+    text-align: center;
+}
+
+.form input[type=submit] {
+    color: white;
+    width: 280px;
+    height: 56px;
+    display: inline-block;
+    background-color: #363A6D;
+    font-size: 25px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 5px solid #4a5097;
+    cursor: pointer;
+}
+
+.form input[type=submit]:hover {
+    background-color: #323665;
 }

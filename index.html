@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+            </style>
         <title>Projeto 01</title>
         <meta charset="UTF-8" />
         <link href="css/style.css" type="text/css" rel="stylesheet" />
@@ -18,8 +21,30 @@
         <div class="container-banner">
             <div class="center">
                 <div class="form">
-                    <form>
+                    <h2>Preencha o formulário e inicie a sua 
+                        caminhada para virar um webmaster!</h2>
 
+                    <form>
+                        <div class="input-container">
+                            <span>Nome*</span>
+                            <input type="text" name="nome" required />
+                        </div><!--input-container-->
+
+                        <div class="input-container">
+                            <span>E-mail*</span>
+                            <input type="text" name="nome" required />
+                        </div><!--input-container-->
+
+                        <div class="input-container">
+                            <span>Telefone*</span>
+                            <input type="text" name="nome" required />
+                        </div><!--input-container-->
+
+                        <p class="warning">*Campos Obrigatórios</p>
+
+                        <div class="input-submit-container">
+                            <input type="submit" name="acao" value="Enviar">
+                        </div><!--input-submit-container-->
                     </form>
                 </div><!--form-->
 
